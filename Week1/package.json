@@ -1,0 +1,9 @@
+{
+    "name": "serverless-javascript",
+    "version": "1.0.0",
+    "description": "Node.js base container for Lambda",
+    "dependencies": {
+      "aws-sdk": "^2.1048.0",
+      "express": "^4.17.1"
+    }
+  }

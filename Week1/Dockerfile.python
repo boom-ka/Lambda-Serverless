@@ -1,0 +1,6 @@
+# Use the official Python 3.13 image from the Docker Hub
+FROM python:3.13-slim
+FROM python-function
+WORKDIR /app
+COPY function/python/example_function.py .
+CMD ["python3", "example_function.py"]
